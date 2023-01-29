@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +21,11 @@
   },
   "homepage": "https://github.com/naifer552/expressTs#readme",
   "devDependencies": {
+    "@types/express": "^4.17.16",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
