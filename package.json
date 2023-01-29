@@ -1,0 +1,24 @@
+{
+  "name": "expressts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naifer552/expressTs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naifer552/expressTs/issues"
+  },
+  "homepage": "https://github.com/naifer552/expressTs#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
