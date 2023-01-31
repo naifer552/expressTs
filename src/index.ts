@@ -1,4 +1,5 @@
 import express from 'express';
+import diariesRouter from './routes/diariesRouter'
 const app = express();
 app.use(express.json()); // middleware que transforma la req.body a un json
 
@@ -9,7 +10,11 @@ app.get('/', (_req, res) => {
     res.send('Hola mundo');
 });
 
+app.use('/api/diaries', diariesRouter);
+
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
 
